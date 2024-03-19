@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ceeeec908.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+<div id="header"> 
+    <!-- Container Content -->
+    <div class="container">
+        <!-- Navigasi Menu -->
+        <nav>
+            <img src="images/logo.png" alt="">
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#porfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- Kalimat Pembuka -->
+        <div class="kalimat-pembuka">
+            <p>Software Engineer</p>
+            <h1>Hi, i'm <span>Andreas</span><br>Computer Enthusiast</h1>
+        </div> 
+    </div>
+</div>
+
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-bab">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget hendrerit urna. Duis molestie, mi fermentum pulvinar mollis, lorem felis dapibus quam, sit amet mollis odio enim sit amet ex. Nulla a ipsum lorem. Aenean non auctor augue. Fusce urna ligula, ornare a suscipit eu, rhoncus vel sapien. Quisque mollis pretium turpis eget semper. Sed non luctus dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non porttitor justo, at molestie mi. Ut nec lacus sed metus aliquam egestas at vitae risus.</p>
+                <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Science</span><br>Membuat model untuk memprediksi</li>
+                        <li><span>AI Engineering</span><br>Membuat AI</li>
+                        <li><span>Software Development</span><br>Pengembangan Aplikasi Desktop maupun Mobile</li>
+                        <li><span>Web Development</span><br>Web Kompleks</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Sekarang</span><br>Universitas BSI - Teknik Informatika</li>
+                        <li><span>2019 - 2022</span><br>SMA Negeri 3 Tambun Selatan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service -->
+<div id="services">
+    <div class="container">
+        <div class="sub-bab">My Services</div>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Desainer Web</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe</p>
+                <a href="">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>    
+                <h2>Pengembangan Aplikasi Android</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe</p>
+                <a href="">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Data Analisis</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe</p>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Porfolio  -->
+<div id="porfolio">
+    <div class="container">
+        <div class="sub-bab">My Project</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>KeuanganKu</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed massa efficitur, volutpat quam feugiat, cursus mauris. Etiam scelerisque viverra consequat. Nullam congue odio ut sem pulvinar, luctus gravida augue ultrices. Curabitur euismod, massa vitae malesuada commodo, lectus massa fringilla.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed massa efficitur, volutpat quam feugiat, cursus mauris. Etiam scelerisque viverra consequat. Nullam congue odio ut sem pulvinar, luctus gravida augue ultrices. Curabitur euismod, massa vitae malesuada commodo, lectus massa fringilla.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Lorem Dolor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed massa efficitur, volutpat quam feugiat, cursus mauris. Etiam scelerisque viverra consequat. Nullam congue odio ut sem pulvinar, luctus gravida augue ultrices. Curabitur euismod, massa vitae malesuada commodo, lectus massa fringilla.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-bab">Contact Me</h1>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    contact@example.com</p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +6281399101218
+                </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn btn2">
+                    <a href="images/my-cv.pdf" download>Download CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name"  placeholder="Your Name" required>
+                    <input type="text" name="Name" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright -->
+<div class="copyright">
+    <p>© Andreas 2024</p>
+</div>
+
+<script>
+    var tabLinks = document.getElementsByClassName("tab-links");
+    var tabContens = document.getElementsByClassName("tab-contents");
+    function opentab(tabName) {
+        for (tablink of tabLinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of  tabContens){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("side-menu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
