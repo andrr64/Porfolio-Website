@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.72.0"
+  },
+  "name": "porfolio-web-bootstrap",
+  "version": "1.0.0",
+  "description": "Porfolio Website using Bootstrap",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "author": "Andreas",
+  "license": "ISC"
+}
