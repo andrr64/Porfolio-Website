@@ -16,30 +16,14 @@
 
 </head>
 <body>
-    <header id="header">
-        <nav class="navbar navbar-light navbar-expand-md">
-            <div class="container">
-                <a class="navbar-brand h1 mb-0 font-poppins-sb font-c-p-black" href="#">
-                    <img width="30" height="30" src="assets/logo.png" alt="">
-                    Andreas Blog
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav font-c-p-black">
-                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class ="nav-link" href="#contact"><i class="fa-solid fa-address-book mx-2"></i>Kontak</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
-    
+    <?php include 'php/header.php' ?>
 
+    <?php include 'php/home.php' ?>
+    <?php include 'php/about.php' ?>
+    <?php include 'php/portfolio.php' ?>
+    <?php include 'php/contact.php' ?>
+
+    <script src="index.js"></script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/8ceeeec908.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->

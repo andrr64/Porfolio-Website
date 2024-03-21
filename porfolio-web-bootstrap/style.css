@@ -17,4 +17,16 @@
   color: "#313131";
 }
 
+.nav-item {
+  transition: 0.5s;
+}
+
+.nav-item.active a {
+  font-weight: 700;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=style.css.map */
