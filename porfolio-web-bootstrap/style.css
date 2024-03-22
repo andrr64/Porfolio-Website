@@ -14,7 +14,23 @@
 }
 
 .font-c-p-black {
-  color: "#313131";
+  color: #313131;
+}
+
+.font-sz-14 {
+  font-size: 14px;
+}
+
+.font-sz-16 {
+  font-size: 16px;
+}
+
+.font-sz-12 {
+  font-size: 12px;
+}
+
+.font-sz-20 {
+  font-size: 20px;
 }
 
 .nav-item {
@@ -27,6 +43,37 @@
 
 .nav-item:hover {
   transform: scale(1.1);
+}
+
+.color-primary {
+  color: #313131;
+}
+
+.color-secondary {
+  color: #E94560;
+}
+
+.color-secondary-bg {
+  background-color: #E94560;
+}
+
+.color-primary-bg {
+  background-color: #313131;
+}
+
+.color-white {
+  color: #fff;
+}
+
+#header {
+  height: 100vh;
+  background-image: url(assets/background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-words {
+  margin-top: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */
